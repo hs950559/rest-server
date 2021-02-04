@@ -1,0 +1,25 @@
+{
+  "name": "rest-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "g:employees": "json-server scripts/employees.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hs950559/rest-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hs950559/rest-server/issues"
+  },
+  "homepage": "https://github.com/hs950559/rest-server#readme",
+  "dependencies": {
+    "faker": "^5.3.1",
+    "json-server": "^0.16.3"
+  }
+}
